@@ -6,9 +6,9 @@ int main(){
     printf("Enter in which year you read==");
     scanf("%d",&i );
     if(i<4){
-    printf("\nWelcome in your Year no.-%d\n", i );
-  }
-  else
-   printf("Not an eligible engineering student");
+      printf("\nWelcome in your Year no.-%d\n", i );
+    }
+    else
+      printf("Not an eligible engineering student");
 
 }
