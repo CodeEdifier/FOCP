@@ -1,10 +1,14 @@
 #include<stdio.h>
-int main(){
-    int i;
-    printf("Printing the first program\n");
-    printf("run the program in the terminal\n");
-    printf("Enter in which year you read==");
-    scanf("%d",&i );
-    printf("\nWelcome in your Year no.-%d\n", i );
 
+// Swap functions that swaps two values
+void swapx(int *x, int *y){
+      int t;
+      t= *x;
+      *x = *y;
+      *y = t;
+}
+int main(){
+      int a =10, b =20;
+      swapx(&a, &b);
+      printf("a =%d;; b =%d", a,b );
 }
