@@ -1,14 +1,10 @@
 #include<stdio.h>
-
-// Swap functions that swaps two values
-void swapx(int *x, int *y){
-      int t;
-      t= *x;
-      *x = *y;
-      *y = t;
+void mm(int x){
+  printf("\n\nIn MM function");
+  printf("Value of x = %d and Address is %p\n", x ,&x);
 }
 int main(){
-      int a =10, b =20;
-      swapx(&a, &b);
-      printf("a =%d;; b =%d", a,b );
+  int x =20;
+  printf("Value of x = %d and Address is %p", x ,&x);
+  mm(x);
 }
